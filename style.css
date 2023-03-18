@@ -1,0 +1,83 @@
+*{
+    margin:0;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-image: url(images/dino.png);
+    padding: 10px 5%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    color: rgb(10, 202, 68);   
+}
+header>*{
+    display: inline-block;
+    width:450px;
+}
+.pustota{
+    width:10%;
+}
+article{
+    justify-content: space-around;
+    
+}
+footer{
+    background-color:rgb(221, 42, 42);
+}
+.pokemon{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: rgba(228, 7, 7, 0.671);
+}
+.monkey{
+    display: flex;
+    justify-content:center;
+    background-color: rgba(243, 15, 15, 0.767);
+}
+#sadmonkey{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.egg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding: 20px 200px;
+    border-radius: 50%;
+    background-image: url(images/Banana.png);
+}
+.fon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding: 60px 40px;
+    border-radius: 50%;
+    background-image: url(images/Dog.png);
+}
+.moloko{
+    background-color: rgb(10, 223, 81);
+}
+.iphone {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    padding: 20px 200px;
+    border-radius: 50%;
+    background-image: url(images/Pc.png);
+}
